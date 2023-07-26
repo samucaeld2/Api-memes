@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(67, 173, 122);
+}
+
+h1{
+  text-align: center;
+}
+
+img {
+  width: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.country-container {
+  display: flex;
+  justify-content: center;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.country-list {
+  padding: 5px;
+  border: 1px solid grey;
+  margin-right: 10px;
+}
+
+td{
+  vertical-align: top;
+}
